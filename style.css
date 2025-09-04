@@ -1,0 +1,57 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+section{
+    width: 350px;
+    background: rgb(34, 50, 224);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -110px;
+    border: 2px solid rgb(16, 15, 116);
+    border-radius: 5px;
+    color:aliceblue
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input{
+    padding: 5px 5px;
+    margin: 5px 0;
+    outline: 0;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+section .btn{
+    cursor:pointer;
+    border-radius: 15px;
+    width: 150px;
+    margin-left: 80px;
+    padding: 6px;;
+}
+
+section input[type='submit']:hover{
+    background-color:rgb(34, 50, 224);
+    color: white;
+}
